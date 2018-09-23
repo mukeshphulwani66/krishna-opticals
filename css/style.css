@@ -46,6 +46,9 @@ h3 {
     bottom: 10%;
     font-family: cursive;
 }
+.carousel-caption h4{
+    color: white;
+}
 
 #home-cover {
      height: 100%;
