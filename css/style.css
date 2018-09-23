@@ -29,11 +29,6 @@ p {
     font-weight: 300;
 }
 
-h3 {
-    color: #41464b;
-    text-transform: uppercase;
-}
-
 
 /*====================================================
                         HOME
@@ -48,7 +43,7 @@ h3 {
 }
 .carousel-caption h3{
     color: white;
-    
+
 }
 
 #home-cover {
