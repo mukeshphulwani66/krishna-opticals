@@ -237,6 +237,7 @@ p {
   .glider div{
       padding: 10px 20px;
       display: flex;
+      background-color: white;
       justify-content: center;
       align-items: center;
   }
