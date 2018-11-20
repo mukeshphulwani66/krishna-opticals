@@ -23,6 +23,9 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+.navbar-brand>img{
+    display: inline;
+}
 p {
     color: #64707b;
     font-size: 16px;
@@ -231,6 +234,13 @@ p {
     width:5%;
   }
 
+  .glider div{
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
 /*====================================================
                        ABOUT
 ======================================================*/
@@ -239,7 +249,8 @@ p {
     width: 60%;
     height: 700px;
     float: right;
-    background-image: url(../img/myimg/stglasses.jpg);
+    /* background-image: url(../img/myimg/stglasses.jpg); */
+    background-image: url(../Newiggss/about.jpg);
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
 }
@@ -272,101 +283,6 @@ p {
     margin-bottom: 30px;
 }
 
-
-/*====================================================
-                       WORK
-======================================================*/
-
-.row.no-gutters [class*=col-] {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.img-wrapper {
-    overflow: hidden;
-}
-
-.img-wrapper img {
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-    transition: transform .5s ease, -webkit-transform .5s ease;
-}
-
-.img-wrapper img:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-    cursor: zoom-in;
-}
-
-
-/*====================================================
-                       TEAM
-======================================================*/
-
-.team-member {
-    margin: 0 15px;
-}
-
-.team-member-info {
-    padding: 10px 0 30px 0;
-}
-
-h4.team-member-name {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-top: 2px;
-}
-
-h4.team-member-designation {
-    color: #34c6d3;
-    font-size: 15px;
-    font-weight: 700;
-    font-style: italic;
-    letter-spacing: 1px;
-    margin-top: 5px;
-}
-
-
-/*====================================================
-                       SOCIAL
-======================================================*/
-
-.social-list {
-    padding-left: 0;
-}
-
-.social-list li {
-    list-style: none;
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin-right: 6px;
-    margin-top: 10px;
-}
-
-.social-icon i {
-    font-size: 17px;
-}
-
-.icon-gray i {
-    color: #64707b;
-}
-
-.icon-white i {
-    color: #fff;
-}
-
-.social-icon i:hover {
-    color: #34c6d3;
-}
-
-
-/*====================================================
-                       TESTIMONIALS
-======================================================*/
-
 #testimonials-cover {
     background-image: url("../img/bg-testimonials.jpg");
 }
@@ -394,6 +310,7 @@ h4.team-member-designation {
 }
 
 .testimonial blockquote p {
+    font-size: 30px;
     color: #fff;
 }
 
@@ -427,102 +344,6 @@ h4.team-member-designation {
 .testimonial-author p strong {
     display: block;
 }
-
-
-/*====================================================
-                       PRICING
-======================================================*/
-
-.pricing-box {
-    border: 3px solid #34c6d3;
-    padding: 50px 0;
-    margin: 40px 0;
-}
-
-h4.pricing-title {
-    background-color: #34c6d3;
-    color: #fff;
-    display: inline-block;
-    padding: 7px 15px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 0 30px 0;
-}
-
-h3.pricing-value {
-    font-size: 60px;
-    font-weight: 700;
-}
-
-h3.pricing-value sup {
-    font-size: 28px;
-    font-weight: normal;
-    vertical-align: super;
-}
-
-ul.pricing-spec {
-    list-style: none;
-    padding-left: 0;
-    margin: 20px 0 60px 0;
-}
-
-ul.pricing-spec li p {
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.pricing-box-lg {
-    padding: 90px 0;
-    margin: 0;
-    background-color: #34c6d3;
-}
-
-.pricing-box-lg h4.pricing-title {
-    color: #34c6d3;
-    background-color: #fff;
-}
-
-.pricing-box-lg ul.pricing-spec li p {
-    color: #fff;
-}
-
-
-/*====================================================
-                       STATS
-======================================================*/
-
-#stats-cover {
-    background-image: url("../img/bg-stats.jpg");
-}
-
-#stats .content-box {
-    background-color: rgba(0, 0, 0, .8);
-}
-
-.stats-item {
-    padding: 100px 0;
-}
-
-.stats-item i {
-    color: #34c6d3;
-}
-
-.stats-item h2 {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 1px;
-}
-
-.stats-item p {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 0;
-}
-
 
 /*====================================================
                        CLIENTS
